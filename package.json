@@ -1,0 +1,22 @@
+{
+  "name": "styled-components-placeholder-bug",
+  "version": "0.0.12",
+  "description": "Copied source from https://github.com/styled-components/styled-components#basic.",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "18.2.0",
+    "styled-components": "6.0.0-rc.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
