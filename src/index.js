@@ -1,8 +1,9 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom/client";
 
 import Wrapper from "./Wrapper";
 import Input from "./Input";
+import { StyleSheetManager } from "styled-components";
 
 // Render these styled components like normal react components.
 // They will pass on all props and work
@@ -13,4 +14,9 @@ const App = () => (
   </Wrapper>
 );
 
-render(<App />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <StyleSheetManager enableVendorPrefixes>
+    <App />
+  </StyleSheetManager>
+);
