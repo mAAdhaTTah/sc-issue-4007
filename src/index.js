@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import Wrapper from "./Wrapper";
 import Input from "./Input";
+import Spinner from "./Spinner";
 import { StyleSheetManager } from "styled-components";
 
 // Render these styled components like normal react components.
@@ -11,6 +12,7 @@ import { StyleSheetManager } from "styled-components";
 const App = () => (
   <Wrapper>
     <Input placeholder="Write here" />
+    <Spinner>s</Spinner>
   </Wrapper>
 );
 
